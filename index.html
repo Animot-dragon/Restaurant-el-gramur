@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Gramur — Cocina de fuego en Buenos Aires</title>
+<meta name="description" content="El Gramur es un restaurante de cocina de brasa en Buenos Aires: carnes madurada, horno de barro, vinos de autor y una mesa larga para compartir. Reservá tu mesa.">
+<meta name="theme-color" content="#150e0a">
+<link rel="canonical" href="https://elgramur.example/">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:title" content="El Gramur — Cocina de fuego en Buenos Aires">
+<meta property="og:description" content="Brasa, tiempo y una mesa larga. Reservá tu mesa en El Gramur.">
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preload" href="assets/fonts/bodoni.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/hanken.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"El Gramur","description":"Cocina de brasa, carnes maduradas y vinos de autor en Buenos Aires. Sitio de demostración con datos ficticios.","servesCuisine":["Argentina","Parrilla","Cocina de fuego"],"priceRange":"$$$","address":{"@type":"PostalAddress","streetAddress":"Av. del Fuego 1280","addressLocality":"Buenos Aires","addressCountry":"AR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday"],"opens":"19:30","closes":"00:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"19:30","closes":"01:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday"],"opens":"12:30","closes":"17:00"}]}</script>
+<script>document.documentElement.classList.add("js");setTimeout(function(){if(!document.documentElement.classList.contains("ready"))document.documentElement.classList.add("failed")},5000)</script>
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="top" data-top>
+ <a class="wordmark" href="#inicio" aria-label="El Gramur, inicio">
+  <svg viewBox="0 0 24 32" aria-hidden="true"><path d="M12 1c1 6 8 9 8 18a8 8 0 0 1-16 0c0-4 2-6 3.5-8 .3 2 1.4 3 2.5 3.4C9.2 9 10.6 5 12 1Z" fill="currentColor"/><path d="M12 15c.6 2.6 3.2 3.6 3.2 7a3.2 3.2 0 0 1-6.4 0c0-1.7.9-2.5 1.6-3.4.3.8.7 1.2 1.1 1.4-.2-2 .1-3.5.5-5Z" fill="var(--tizon)"/></svg>
+  <span>El Gramur</span>
+ </a>
+ <button class="burger" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><span></span><span></span></button>
+ <nav id="menu-principal" class="nav" aria-label="Principal">
+  <a href="#historia">Historia</a><a href="#carta">Carta</a><a href="#experiencias">Experiencias</a><a href="#visitanos">Visitanos</a>
+  <a class="btn btn-small" href="#reservas">Reservar mesa</a>
+ </nav>
+</header>
+
+<main id="contenido">
+
+<section class="hero" id="inicio" aria-labelledby="titulo">
+ <canvas class="fire" aria-hidden="true"></canvas>
+ <div class="hero-shade" aria-hidden="true"></div>
+ <div class="wrap hero-grid">
+  <h1 id="titulo" class="hero-title">
+   <span class="ln"><span>Fuego, tiempo</span></span>
+   <span class="ln"><span>y una mesa larga.</span></span>
+  </h1>
+  <p class="hero-lead" data-in>Cocina de brasa en el corazón de Buenos Aires. Carnes maduradas, horno de barro y una bodega pensada para quedarse a la sobremesa.</p>
+  <div class="hero-actions" data-in>
+   <a class="btn" href="#reservas">Reservar una mesa</a>
+   <a class="btn btn-ghost" href="#carta">Ver la carta</a>
+  </div>
+  <aside class="hero-status" data-in aria-label="Estado del restaurante">
+   <p class="status-line"><i class="dot" data-dot aria-hidden="true"></i><strong data-open-label>Consultando horario…</strong></p>
+   <p class="status-sub" data-open-sub>Av. del Fuego 1280, Buenos Aires</p>
+  </aside>
+ </div>
+</section>
+
+<section class="manifesto" aria-label="Nuestra idea">
+ <div class="wrap">
+  <p class="manifesto-text" data-scrub>Encendemos el fuego a las seis de la mañana. Todo lo demás es paciencia: la que necesita una pieza para madurar, una brasa para asentarse y una mesa para convertirse en recuerdo.</p>
+ </div>
+</section>
+
+<section class="historia" id="historia" aria-labelledby="h-historia">
+ <div class="wrap historia-grid">
+  <div class="historia-art" data-in aria-hidden="true">
+   <svg viewBox="0 0 400 520" class="art-svg">
+    <defs>
+     <linearGradient id="g1" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#b9471f"/><stop offset=".55" stop-color="#e0a84a"/><stop offset="1" stop-color="#f6dc9a"/></linearGradient>
+    </defs>
+    <rect width="400" height="520" fill="#2a1a10"/>
+    <circle cx="200" cy="300" r="150" fill="#3a2418"/>
+    <circle cx="200" cy="300" r="105" fill="none" stroke="#e0a84a" stroke-opacity=".35"/>
+    <circle cx="200" cy="300" r="70" fill="none" stroke="#e0a84a" stroke-opacity=".25"/>
+    <path class="flame-a" d="M200 120c10 62 86 92 86 184a86 86 0 0 1-172 0c0-44 22-66 38-88 3 21 15 32 27 36-4-52 9-95 21-132Z" fill="url(#g1)"/>
+    <path class="flame-b" d="M200 238c7 28 36 40 36 78a36 36 0 0 1-72 0c0-19 10-28 17-38 3 9 8 14 13 16-2-22 1-39 6-56Z" fill="#f6e7bd" fill-opacity=".92"/>
+    <g stroke="#f3e9d6" stroke-opacity=".28" fill="none"><path d="M40 470h320"/><path d="M60 486h280"/><path d="M80 502h240"/></g>
+   </svg>
+   <p class="art-cap">La brasa de El Gramur, encendida desde 2014.</p>
+  </div>
+  <div class="historia-copy">
+   <h2 id="h-historia" data-in>Una cocina que se toma su tiempo</h2>
+   <p data-in>Julián Aranda abrió El Gramur en 2014 con una parrilla de hierro, un horno de barro que construyó con su padre y la idea de que cocinar con fuego es, sobre todo, saber esperar.</p>
+   <p data-in>Hoy trabajamos con productores de la Patagonia y la pampa húmeda, maduramos nuestras carnes en cámara propia y servimos cada plato para compartir, en una mesa larga de nogal donde nadie se apura.</p>
+   <blockquote data-in><p>“El fuego no se domina: se escucha. Cuando entendés cuándo hablar y cuándo callar, la comida sale sola.”</p><footer>Julián Aranda, chef y fundador</footer></blockquote>
+   <ul class="pillars" data-in>
+    <li><strong>Brasa de quebracho</strong><span>Leña seca de más de dos años, sin aceleradores.</span></li>
+    <li><strong>Maduración propia</strong><span>De 21 a 45 días, en cámara a la vista del salón.</span></li>
+    <li><strong>Bodega de pequeños productores</strong><span>Más de 120 etiquetas, la mitad por copa.</span></li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="carta" id="carta" aria-labelledby="h-carta">
+ <div class="wrap">
+  <div class="sec-head">
+   <h2 id="h-carta" data-in>La carta</h2>
+   <p data-in>Cocina para compartir. Pedí a la mitad de la mesa y dejá que el resto llegue de a poco.</p>
+  </div>
+  <div class="carta-tools" data-in>
+   <div class="tabs" role="tablist" aria-label="Secciones de la carta" data-tabs></div>
+   <div class="filters" role="group" aria-label="Filtros dietarios">
+    <label class="chip"><input type="checkbox" data-filter="V"><span>Vegetariano</span></label>
+    <label class="chip"><input type="checkbox" data-filter="SG"><span>Sin gluten</span></label>
+   </div>
+  </div>
+  <div class="menu-panel" data-menu aria-live="polite"></div>
+  <div class="degustacion" data-in>
+   <div>
+    <h3>Seis fuegos</h3>
+    <p>Menú degustación de seis pasos que recorre la brasa, el horno de barro y el ahumador. Para toda la mesa, con aviso previo.</p>
+   </div>
+   <div class="deg-price"><strong>$ 68.000</strong><span>por persona · maridaje $ 36.000</span><a class="btn btn-small" href="#reservas" data-pick="Menú degustación Seis fuegos">Reservar este menú</a></div>
+  </div>
+  <p class="note">Precios en pesos argentinos, impuestos incluidos. Avisanos si tenés alergias o restricciones: adaptamos la mayoría de los platos. Datos de demostración.</p>
+ </div>
+</section>
+
+<section class="experiencias" id="experiencias" aria-labelledby="h-exp">
+ <div class="wrap">
+  <div class="sec-head">
+   <h2 id="h-exp" data-in>Para quedarse más tiempo</h2>
+   <p data-in>Tres formas de vivir El Gramur más allá de una cena.</p>
+  </div>
+  <div class="exp-list">
+   <article class="exp" data-in>
+    <div class="exp-main"><h3>La mesa del chef</h3><p>Ocho lugares frente a la parrilla. Julián cocina, explica y improvisa según lo que llegó esa mañana. Jueves, dos turnos.</p></div>
+    <div class="exp-side"><strong>$ 82.000</strong><span>por persona · 8 comensales</span><a class="btn btn-small btn-ghost" href="#reservas" data-pick="La mesa del chef">Reservar</a></div>
+   </article>
+   <article class="exp" data-in>
+    <div class="exp-main"><h3>Cata en la bodega</h3><p>Lucía Prado guía cinco copas de pequeños productores, con quesos y panes del horno. Sábados a las 17.</p></div>
+    <div class="exp-side"><strong>$ 34.000</strong><span>por persona · 12 lugares</span><a class="btn btn-small btn-ghost" href="#reservas" data-pick="Cata en la bodega">Reservar</a></div>
+   </article>
+   <article class="exp" data-in>
+    <div class="exp-main"><h3>Eventos privados</h3><p>El salón del fondo y el patio con parrilla propia, para cumpleaños, cenas de empresa y celebraciones de hasta cuarenta personas.</p></div>
+    <div class="exp-side"><strong>Consultá</strong><span>hasta 40 personas</span><a class="btn btn-small btn-ghost" href="#reservas" data-pick="Evento privado">Consultar</a></div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="reservas" id="reservas" aria-labelledby="h-res">
+ <div class="wrap res-grid">
+  <div class="res-copy">
+   <h2 id="h-res" data-in>Reservá tu mesa</h2>
+   <p data-in>Elegí día, turno y cantidad de personas. Te confirmamos por mail en menos de una hora dentro del horario de atención.</p>
+   <dl class="contact" data-in>
+    <div><dt>Teléfono</dt><dd><a href="tel:+541155550142">+54 11 5555-0142</a></dd></div>
+    <div><dt>Correo</dt><dd><a href="mailto:reservas@elgramur.example">reservas@elgramur.example</a></dd></div>
+    <div><dt>Grupos de 11 o más</dt><dd>Escribinos y armamos la mesa a medida.</dd></div>
+   </dl>
+  </div>
+  <form class="res-form" data-form novalidate data-in>
+   <div class="row">
+    <label class="field"><span>Nombre y apellido</span><input name="nombre" type="text" autocomplete="name" required></label>
+    <label class="field"><span>Correo electrónico</span><input name="email" type="email" autocomplete="email" required></label>
+   </div>
+   <div class="row">
+    <label class="field"><span>Teléfono</span><input name="tel" type="tel" autocomplete="tel" inputmode="tel" required></label>
+    <label class="field"><span>Personas</span>
+     <select name="personas" required><option value="">Elegí</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+    </label>
+   </div>
+   <div class="row">
+    <label class="field"><span>Fecha</span><input name="fecha" type="date" required data-date></label>
+    <label class="field"><span>Ocasión o experiencia</span>
+     <select name="ocasion" data-ocasion><option>Cena o almuerzo</option><option>La mesa del chef</option><option>Cata en la bodega</option><option>Menú degustación Seis fuegos</option><option>Evento privado</option><option>Cumpleaños o aniversario</option></select>
+    </label>
+   </div>
+   <fieldset class="field slots-field"><legend>Turno</legend><div class="slots" data-slots role="radiogroup" aria-label="Turno"></div><p class="hint" data-slot-hint>Elegí una fecha para ver los turnos disponibles.</p></fieldset>
+   <label class="field"><span>Notas (alergias, silla para bebé, celebración)</span><textarea name="notas" rows="3"></textarea></label>
+   <p class="error" data-error role="alert" hidden></p>
+   <button class="btn btn-full" type="submit">Solicitar reserva</button>
+   <p class="note small">Sitio de demostración: la solicitud no se envía a ningún restaurante real.</p>
+  </form>
+  <div class="res-done" data-done hidden tabindex="-1">
+   <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M14 25l7 7 13-15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+   <h3>Solicitud recibida</h3>
+   <p data-done-text></p>
+   <p class="note small">Sitio de demostración: no se envió ninguna reserva real.</p>
+   <button class="btn btn-ghost btn-small" type="button" data-again>Hacer otra reserva</button>
+  </div>
+ </div>
+</section>
+
+<section class="visitanos" id="visitanos" aria-labelledby="h-vis">
+ <div class="wrap vis-grid">
+  <div class="vis-copy">
+   <h2 id="h-vis" data-in>Visitanos</h2>
+   <address data-in>Av. del Fuego 1280<br>Buenos Aires, Argentina</address>
+   <table class="hours" data-in data-hours aria-label="Horarios de atención">
+    <tbody>
+     <tr data-d="1"><th scope="row">Lunes</th><td>Cerrado</td></tr>
+     <tr data-d="2"><th scope="row">Martes</th><td>19:30 – 00:00</td></tr>
+     <tr data-d="3"><th scope="row">Miércoles</th><td>19:30 – 00:00</td></tr>
+     <tr data-d="4"><th scope="row">Jueves</th><td>19:30 – 00:00</td></tr>
+     <tr data-d="5"><th scope="row">Viernes</th><td>12:30 – 16:00 · 19:30 – 01:00</td></tr>
+     <tr data-d="6"><th scope="row">Sábado</th><td>12:30 – 16:00 · 19:30 – 01:00</td></tr>
+     <tr data-d="0"><th scope="row">Domingo</th><td>12:30 – 17:00</td></tr>
+    </tbody>
+   </table>
+   <p class="note" data-in>A dos cuadras de la estación y con estacionamiento propio. Aceptamos todas las tarjetas.</p>
+  </div>
+  <figure class="map" data-in>
+   <svg viewBox="0 0 560 480" role="img" aria-label="Mapa esquemático: El Gramur en Av. del Fuego 1280">
+    <rect width="560" height="480" fill="#1e140e"/>
+    <path d="M0 360C90 330 160 395 260 372s170-60 300-18v126H0Z" fill="#2c2a2a" opacity=".55"/>
+    <g fill="#2a1a10"><rect x="30" y="30" width="150" height="110" rx="4"/><rect x="200" y="30" width="110" height="110" rx="4"/><rect x="330" y="30" width="200" height="110" rx="4"/><rect x="30" y="170" width="150" height="120" rx="4"/><rect x="330" y="170" width="200" height="120" rx="4"/></g>
+    <rect x="200" y="170" width="110" height="120" rx="4" fill="#33291a"/>
+    <g stroke="#3a2a1c" stroke-width="2" fill="none"><path d="M0 155h560M0 300h560M190 0v340M320 0v340"/></g>
+    <path d="M0 155h560" stroke="#e0a84a" stroke-opacity=".55" stroke-width="3" fill="none"/>
+    <text x="22" y="148" fill="#a8957f" font-size="11" font-family="Hanken Grotesk, sans-serif" letter-spacing="1.2">AV. DEL FUEGO</text>
+    <g class="pin" transform="translate(255 155)"><circle class="pulse" r="9" fill="#e0a84a" opacity=".35"/><circle r="9" fill="#e0a84a"/><circle r="3.5" fill="#150e0a"/></g>
+    <text x="272" y="140" fill="#f3e9d6" font-size="15" font-family="Bodoni Moda, serif" font-style="italic">El Gramur</text>
+    <text x="400" y="410" fill="#a8957f" font-size="11" font-family="Hanken Grotesk, sans-serif" letter-spacing="1.2" opacity=".7">RÍO</text>
+   </svg>
+   <figcaption>Plano esquemático. Ubicación ficticia de demostración.</figcaption>
+  </figure>
+ </div>
+</section>
+</main>
+
+<footer class="foot">
+ <div class="wrap foot-grid">
+  <div><a class="wordmark foot-mark" href="#inicio"><svg viewBox="0 0 24 32" aria-hidden="true"><path d="M12 1c1 6 8 9 8 18a8 8 0 0 1-16 0c0-4 2-6 3.5-8 .3 2 1.4 3 2.5 3.4C9.2 9 10.6 5 12 1Z" fill="currentColor"/></svg><span>El Gramur</span></a><p>Cocina de fuego en Buenos Aires desde 2014.</p></div>
+  <nav aria-label="Pie"><a href="#historia">Historia</a><a href="#carta">Carta</a><a href="#experiencias">Experiencias</a><a href="#reservas">Reservas</a><a href="#visitanos">Visitanos</a></nav>
+  <p class="legal">© <span data-year></span> El Gramur. Sitio de demostración: nombres, precios, horarios y direcciones son ficticios.</p>
+ </div>
+</footer>
+</body>
+</html>
